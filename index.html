@@ -223,92 +223,109 @@
                 display: flex;
                 text-align: center;
                 align-items: center;
-                padding: 100px;
+                padding: 50px;
                 margin-left: auto;
                 margin-right: auto;
                 background-color: rgba(129, 134, 133, 0.900);
-                width: 800px;
+                width: 1200px;
                 box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.674);
                 border-radius: 50px;
                 
             }
             
+            .estrutura{
+                min-width: 500px;
+                max-width: 100%;
+                min-height: 500px;
+                max-height: 100%;
+            }
            
+            #faixada{
+                border-radius: 10px;
+                border-style: groove;
+                box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 767);
+            }
 
-           
+           #btn{
+            display: flex;
+            flex-direction: row;
+            margin-left: 1px;
+            
+           }
         </style>
 
 
-<body>
+<body class="estrutura" id="estrutura">
 
-    <body>
+        <body class="estrutura" id="estrutura">
         
-        <section class="titulo">
-        <h1> Hotel 3 Marias </h1>
-        <img id="titulo" width=100px, height=100px src="logo.png" alt="logo">
+            <section class="titulo">
+            <h1 id="titulo1"> Hotel 3 Marias </h1>
+            <img id="titulo" width=100px, height=100px src="logo.png" alt="logo">
         
     
-        <style id="fundo">
-        body{
+            <style id="fundo">
+            body{
             background-image: url(lagoverde.webp);
             }
-        </style>
-        </section>    
-    </body>
+            </style>
+            </section>    
+            </body>
 
-    <ul id="menu-h">
-        <li><a style="color: black;" href="#titulo">Inicio</a></li>
-        <li><a style="color: black;" href="#quemsomos">Quem somos</a></li>
-        <li><a style="color: black;" href="#servicos">Serviços</a></li>
-        <li><a style="color: black;" href="#textomapa">Localização</a></li>
-        <li><a style="color: black;" href="#contato">Contato</a></li>
-
-
-    </ul>
+            <ul id="menu-h">
+                <li><a style="color: black;" href="#titulo1">Inicio</a></li>
+                <li><a style="color: black;" href="#quemsomos">Quem somos</a></li>
+                <li><a style="color: black;" href="#servicos">Serviços</a></li>
+                <li><a style="color: black;" href="#mapa">Localização</a></li>
+                <li><a style="color: black;" href="#contato">Contato</a></li>
 
 
-    <section class="bemvindo">
+            </ul>
 
-        <div id="bemvindo">
 
-            <h2>
-                Bem vindo A melhor acomodação de Paragominas e região.
+        <section class="bemvindo">
+
+            <div id="bemvindo">
+
+                <h2>
+                Seja Bem vindo a melhor acomodação de Paragominas e região.
                 O conforto que voce precisa está aqui !
-            </h2>
+                </h2>
 
-        </div>
+                <img id="faixada" width=800px, height=300px src="faixada.jpeg" alt="faixada">
+            </div>
 
-    </section>
+        </section>
 
 
 
-    <section class="corpo">
+        <section class="corpo">
 
+    
+
+            <div>
+                <img id="quemsomos" width="500px" height="300px" src="quarto.jpeg" alt="quarto">
         
-
-        <div>
-            <img id="quemsomos" width="400px" height="300px" src="quarto.jpeg" alt="quarto">
-        
-        </div>
+            </div>
 
 
 
-        <div id="textoquemsomos">
+            <div id="textoquemsomos">
 
-        <p>Somos uma acomodação de qualidade
-            e conforto fundada em 2023 com o 
-            intuito de trazer a melhor experiencia
-            aos nossos hospedes.
-            Cada detallhe foi pensado nos minimos
-            detalhes para melhor atender você
-        </p>
-        </div>
+             <p>Somos uma acomodação de qualidade
+                e conforto fundada em 2023 com o 
+                intuito de trazer a melhor experiencia
+                aos nossos hospedes.
+                Cada detallhe foi pensado nos minimos
+                detalhes para melhor atender você
+                </p>
+            </div>
         </section>
 
         <section class="corpo1">
 
             <div>
-                <img id="servicos" width="400px" height="300px" src="servicos.png" alt="servicos">
+                <img id="servicos" width="500px" height="300px" src="servicos.jpeg" alt="servicos">
             
             </div>
     
@@ -333,13 +350,13 @@
 
         </section>
 
-        <section class="mapa">
+            <section class="mapa" id="mapa">
 
 
-        <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2252.3599908725264!2d-47.33938133821026!3d-2.9927981092713147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1701342632288!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2252.3599908725264!2d-47.33938133821026!3d-2.9927981092713147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1701342632288!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         
     
-        </section>
+            </section>
 
         
 
@@ -360,15 +377,12 @@
                 
                      Instagram: @hotel3mariasparagominas
                 
-                <a id="btn"  href="https://api.whatsapp.com/send?phone=5591991584392&text=Olá, Ainda restam vagas para hoje?"> 
+                <a class="btn" id="btn"  href="https://api.whatsapp.com/send?phone=5591991584392&text=Olá, Ainda restam vagas para hoje?"> 
                     <img id="whatsapp" width="50" height="50" src="whatsapp.png" alt="icone whatsapp">
                     </a>
             
             </div>
           </section>
-
-
-    <
 
 
 
@@ -383,3 +397,4 @@
     
 </body>
 </html>
+
